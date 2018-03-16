@@ -33,10 +33,6 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void tableOnClick(View view){
-        Intent intent = new Intent (this,tableActivity.class );
-        startActivity(intent);
-    }
 
     public void relativeOnClick(View view){
         Intent intent = new Intent (this,relativeActivity.class );
